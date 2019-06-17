@@ -15,25 +15,26 @@
             android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Estudiante 1" />
+            android:text="Video view" />
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Estudiante 2" />
+            android:text="Calendar view" />
 
         <Button
             android:id="@+id/btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Estudiante 3" />
+            android:layout_height="60dp"
+            android:onClick="viewMap"
+            android:text="Mapa" />
 
         <Button
             android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Estudiante 4" />
+            android:text="Grafico lineal" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/floatingActionButton"
