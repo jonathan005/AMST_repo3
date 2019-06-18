@@ -13,27 +13,31 @@
 
         <Button
             android:id="@+id/btn1"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="89dp"
             android:text="Video view" />
 
         <Button
             android:id="@+id/btn2"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="89dp"
             android:text="Calendar view" />
 
         <Button
             android:id="@+id/btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="89dp"
             android:onClick="viewMap"
             android:text="Mapa" />
 
         <Button
             android:id="@+id/btn4"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="89dp"
             android:text="Grafico lineal" />
 
         <android.support.design.widget.FloatingActionButton
