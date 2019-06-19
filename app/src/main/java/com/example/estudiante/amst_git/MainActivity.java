@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent calendario = new Intent (this, Calendar.class);
         startActivity(calendario);
     }
+
+    public void Videoview (View v){
+        Intent videoView = new Intent (this, VideoView.class);
+        startActivity(videoView);
+    }
 }
