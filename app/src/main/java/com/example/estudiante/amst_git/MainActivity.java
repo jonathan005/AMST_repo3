@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void viewChart(View view){
-        Intent barIntent = new Intent (this, BarChartActivity.class);
+        Intent barIntent = new Intent (this, LinearChartActivity.class);
         startActivity(barIntent);
     }
 }
