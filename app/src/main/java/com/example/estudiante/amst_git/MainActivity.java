@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent mapa = new Intent(getBaseContext(), MapsActivity.class);
         startActivity(mapa);
     }
+
+    public void viewCalendar (View v){
+        Intent calendario = new Intent (this, Calendar.class);
+        startActivity(calendario);
+    }
 }
