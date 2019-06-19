@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent videoView = new Intent (this, VideoView.class);
         startActivity(videoView);
     }
+
+    public void viewChart(View view){
+        Intent barIntent = new Intent (this, BarChartActivity.class);
+        startActivity(barIntent);
+    }
 }
